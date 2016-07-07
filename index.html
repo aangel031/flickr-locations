@@ -1,0 +1,39 @@
+<!DOCTYPE html/>
+<html>
+    <head>
+        <title>Flickr Locations</title>
+        <link rel="stylesheet" href="index.css" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">Flickr Locations</div>
+        <div id="searchHolder">
+            <div style="width: 500px; margin-top: 70px;" class="col-lg-4 col-lg-offset-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for..." id="txtInput">
+                    <span style="padding: 0;" class="input-group-btn">
+                    <button class="btn btn-secondary" type="button" id="btnGo">Go!</button>
+                  </span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="posts">
+            <h3 class="postTitle">Title</h3>
+            <div style="height: 2.5px; width:100% ; background-color: #34495e;"></div>
+            <img class="postImg img-responsive"/>
+            <h3 class="postLocation">New York</h3>
+            <h3 class="postDate">6/10/16</h3>
+        </div>
+    </body>
+</html>
